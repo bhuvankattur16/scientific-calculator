@@ -1,9 +1,4 @@
-# [Scientific calculator](https://yogeshiitm.github.io/scientific-calculator/)
-This is an online javascript scientific calculator, designed and coded by [Yogesh Agarwala](http://yogeshiitm.github.io/).\
-**View it here: https://yogeshiitm.github.io/scientific-calculator/**
-<!-- ![Scientific calculator](images/calculator.png) --> 
 <a href="https://yogeshiitm.github.io/scientific-calculator/"><img src="images/calculator.png"></a>
-
 ## Some Features
 1. The input of this calculator can be a multiple function expression, just like a physical scientific calculator.  
 2. The back button in the calculator is designed to work smartly, e.g. if the back button is pressed after doing a calculation, then it will act as a clear button and will delete the entire string from the input text area, but at other times it will delete only the last character from the input expression. 
@@ -19,15 +14,12 @@ This is an online javascript scientific calculator, designed and coded by [Yoges
     4^(3πe) ---> 4^(3×π×e)
     3!5 ---> 3! × 5
     ```
-
 4. It also checks if all the parentheses are balanced in the input expression (using Stack data structure), and then displays an error accordingly.
     ```sh
     abs(-5)) ---> Error displayed: closing bracket has been used before an opening bracket.
     (abs(-5) ---> Error displayed: brackets are not balanced.
     ```
-
 5. The calculator can take input not only through mouse clicks but also from keyboard button press.
-
 ## Near future plan
 1. Option to switch between degree and radian: currently by default angle has to be entered in degree.
 2. Inverse trigonometric functions are yet to be added.
